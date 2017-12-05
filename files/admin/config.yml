@@ -25,8 +25,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Category", name: "category", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Featured Image", name: "previewimage", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Category", name: "category", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Featured Image", name: "previewimage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
