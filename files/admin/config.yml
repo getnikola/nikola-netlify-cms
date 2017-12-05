@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}/{{month}}/{{day}}/{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "previewimage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+collections:
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "pages" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Featured Image", name: "previewimage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
