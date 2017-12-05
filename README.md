@@ -14,4 +14,4 @@ And then configure it in Netlify’s panel. Go to the *Identity* section of *Set
 
 Also, consider changing your site name in the General settings. You should end up with a site with the Netlify CMS available in `/admin/`. Congratulations!
 
-*PS.* Netlify CMS can be used without Netlify’s CDN/hosting service, but that requires some extra configuration work.
+*PS.* Netlify CMS can be used without Netlify’s CDN/hosting service, but that requires some extra configuration work.  Also, *preview images* require theme support (not available in the default).
