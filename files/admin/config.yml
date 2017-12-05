@@ -17,8 +17,6 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featured Image", name: "previewimage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "pages" # The path to the folder where the documents are stored
