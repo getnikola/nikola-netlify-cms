@@ -7,6 +7,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
+    label_singular: "Post"
     description: >
       Posts (blog entries), visible in indexes and RSS feeds.
     folder: "posts" # The path to the folder where the documents are stored
@@ -22,6 +23,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
+    label_singular: "Page"
     description: >
       Pages (stories), used to display information outside of indexes/feeds.
       Great for an “About me” page, for example.
