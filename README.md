@@ -2,7 +2,7 @@ This is a sample Nikola blog, compatible with Netlify CMS.
 
 Hit this one button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getnikola/nikola-netlify-cms&scheme=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/getnikola/nikola-netlify-cms&stack=cms)
 
 And then configure it in Netlify’s panel. Go to the *Identity* section of *Settings*, and:
 
