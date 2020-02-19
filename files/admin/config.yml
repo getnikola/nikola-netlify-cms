@@ -16,7 +16,10 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Updated", name: "updated", widget: "datetime", required: false}
+      - {label: "Status", name: "status", widget: "select", options: ["published", "featured", "draft", "private"], required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Category", name: "category", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
@@ -34,7 +37,10 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Updated", name: "updated", widget: "datetime", required: false}
+      - {label: "Status", name: "status", widget: "select", options: ["published", "featured", "draft", "private"], required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Category", name: "category", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "string", required: false}
