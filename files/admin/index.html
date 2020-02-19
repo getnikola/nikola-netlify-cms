@@ -11,6 +11,24 @@
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
     CMS.registerPreviewStyle("/assets/css/all-nocdn.css");
+
+    var PostPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h('article', {"className": "post-text h-entry hentry postpage"},
+          h('header', {},
+            h('h1', {"className": "p-name entry-title"},
+              h('a', {"href": ".", "className": "u-url"}, entry.getIn(['data', 'title']))),
+            h('div', {"className": "metadata"},
+              h('p', {"className": "byline author vcard p-author h-card"},
+                h('span', {"className": "byline-name fn p-name"}, entry.getIn(['data', 'author']) || ' ')))),
+          h('div', {"className": "e-content entry-content"}, this.props.widgetFor('body'))
+        );
+      }
+  });
+
+    CMS.registerPreviewTemplate("posts", PostPreview);
+    CMS.registerPreviewTemplate("pages", PostPreview);
   </script>
 </body>
 </html>
