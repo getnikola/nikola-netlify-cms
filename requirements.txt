@@ -5,6 +5,7 @@
 #    pip-compile
 #
 aiohttp==3.6.2            # via nikola
+argon2-cffi==20.1.0       # via notebook
 async-timeout==3.0.1      # via aiohttp
 attrs==19.3.0             # via aiohttp, jsonschema
 babel==2.8.0              # via nikola
@@ -12,6 +13,7 @@ backcall==0.2.0           # via ipython
 bleach==3.1.5             # via nbconvert
 blinker==1.4              # via nikola
 certifi==2020.6.20        # via requests
+cffi==1.14.3              # via argon2-cffi
 chardet==3.0.4            # via aiohttp, requests
 cloudpickle==1.5.0        # via doit
 decorator==4.4.2          # via ipython, traitlets
@@ -41,7 +43,7 @@ natsort==7.0.1            # via nikola
 nbconvert==5.6.1          # via notebook
 nbformat==5.0.7           # via nbconvert, notebook
 nikola[extras]==8.1.1     # via -r requirements.in
-notebook==6.0.3           # via nikola
+notebook==6.1.5           # via nikola
 packaging==20.4           # via bleach
 pandocfilters==1.4.2      # via nbconvert
 parso==0.7.0              # via jedi
@@ -54,6 +56,7 @@ pillow==7.2.0             # via nikola
 prometheus-client==0.8.0  # via notebook
 prompt-toolkit==3.0.5     # via ipython
 ptyprocess==0.6.0         # via pexpect, terminado
+pycparser==2.20           # via cffi
 pygal==2.4.0              # via nikola
 pygments==2.6.1           # via ipython, nbconvert, nikola
 pyinotify==0.9.6          # via doit
@@ -65,10 +68,9 @@ python-dateutil==2.8.1    # via jupyter-client, nikola
 pytz==2020.1              # via babel
 pyzmq==19.0.1             # via jupyter-client, notebook
 requests==2.24.0          # via nikola
-ruamel.yaml.clib==0.2.0   # via ruamel.yaml
 ruamel.yaml==0.16.10      # via -r requirements.in, nikola
 send2trash==1.5.0         # via notebook
-six==1.15.0               # via bleach, jsonschema, packaging, pyrsistent, python-dateutil, traitlets
+six==1.15.0               # via argon2-cffi, bleach, jsonschema, packaging, pyrsistent, python-dateutil, traitlets
 smartypants==2.0.1        # via typogrify
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
