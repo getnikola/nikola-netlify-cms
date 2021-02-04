@@ -20,7 +20,7 @@ babel==2.9.0
     # via nikola
 backcall==0.2.0
     # via ipython
-bleach==3.2.1
+bleach==3.3.0
     # via nbconvert
 blinker==1.4
     # via nikola
