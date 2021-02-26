@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aiohttp==3.7.3
+aiohttp==3.7.4
     # via nikola
 argon2-cffi==20.1.0
     # via notebook
