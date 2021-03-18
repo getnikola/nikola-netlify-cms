@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aiohttp==3.7.4
+aiohttp==3.7.4.post0
     # via nikola
 argon2-cffi==20.1.0
     # via notebook
@@ -26,9 +26,9 @@ blinker==1.4
     # via nikola
 certifi==2020.12.5
     # via requests
-cffi==1.14.4
+cffi==1.14.5
     # via argon2-cffi
-chardet==3.0.4
+chardet==4.0.0
     # via
     #   aiohttp
     #   requests
@@ -36,7 +36,7 @@ cloudpickle==1.6.0
     # via doit
 decorator==4.4.2
     # via ipython
-defusedxml==0.6.0
+defusedxml==0.7.1
     # via nbconvert
 docutils==0.16
     # via nikola
@@ -44,15 +44,17 @@ doit==0.33.1
     # via nikola
 entrypoints==0.3
     # via nbconvert
-ghp-import2==1.0.1
+ghp-import==1.0.1
     # via nikola
-husl==4.0.3
+hsluv==5.0.2
+    # via nikola
+html5lib==1.1
     # via nikola
 idna==2.10
     # via
     #   requests
     #   yarl
-ipykernel==5.4.3
+ipykernel==5.5.0
     # via
     #   nikola
     #   notebook
@@ -61,23 +63,23 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.19.0
+ipython==7.21.0
     # via ipykernel
 jedi==0.18.0
     # via ipython
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   nbconvert
     #   nikola
     #   notebook
 jsonschema==3.2.0
     # via nbformat
-jupyter-client==6.1.11
+jupyter-client==6.1.12
     # via
     #   ipykernel
     #   nbclient
     #   notebook
-jupyter-core==4.7.0
+jupyter-core==4.7.1
     # via
     #   jupyter-client
     #   nbconvert
@@ -89,13 +91,13 @@ lxml==4.6.2
     # via nikola
 mako==1.1.4
     # via nikola
-markdown==3.3.3
+markdown==3.3.4
     # via nikola
 markupsafe==1.1.1
     # via
     #   jinja2
     #   mako
-micawber==0.5.2
+micawber==0.5.3
     # via nikola
 mistune==0.8.4
     # via nbconvert
@@ -103,9 +105,9 @@ multidict==5.1.0
     # via
     #   aiohttp
     #   yarl
-natsort==7.1.0
+natsort==7.1.1
     # via nikola
-nbclient==0.5.1
+nbclient==0.5.3
     # via nbconvert
 nbconvert==6.0.7
     # via notebook
@@ -114,13 +116,13 @@ nbformat==5.1.2
     #   nbclient
     #   nbconvert
     #   notebook
-nest-asyncio==1.4.3
+nest-asyncio==1.5.1
     # via nbclient
-nikola[extras]==8.1.2
+nikola[extras]==8.1.3
     # via -r requirements.in
 notebook==6.2.0
     # via nikola
-packaging==20.8
+packaging==20.9
     # via bleach
 pandocfilters==1.4.3
     # via nbconvert
@@ -134,11 +136,11 @@ pickleshare==0.7.5
     # via ipython
 piexif==1.1.3
     # via nikola
-pillow==8.1.0
+pillow==8.1.2
     # via nikola
 prometheus-client==0.9.0
     # via notebook
-prompt-toolkit==3.0.10
+prompt-toolkit==3.0.17
     # via ipython
 ptyprocess==0.7.0
     # via
@@ -148,7 +150,7 @@ pycparser==2.20
     # via cffi
 pygal==2.4.0
     # via nikola
-pygments==2.7.4
+pygments==2.8.1
     # via
     #   ipython
     #   jupyterlab-pygments
@@ -166,17 +168,20 @@ pyrss2gen==1.1
     # via nikola
 python-dateutil==2.8.1
     # via
+    #   ghp-import
     #   jupyter-client
     #   nikola
-pytz==2020.5
+pytz==2021.1
     # via babel
-pyzmq==21.0.1
+pyzmq==22.0.3
     # via
     #   jupyter-client
     #   notebook
 requests==2.25.1
     # via nikola
-ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+    # via ruamel.yaml
+ruamel.yaml==0.16.13
     # via
     #   -r requirements.in
     #   nikola
@@ -186,11 +191,12 @@ six==1.15.0
     # via
     #   argon2-cffi
     #   bleach
+    #   html5lib
     #   jsonschema
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
-terminado==0.9.2
+terminado==0.9.3
     # via notebook
 testpath==0.4.4
     # via nbconvert
@@ -216,16 +222,18 @@ typing-extensions==3.7.4.3
     # via aiohttp
 typogrify==2.0.7
     # via nikola
-unidecode==1.1.2
+unidecode==1.2.0
     # via nikola
-urllib3==1.26.2
+urllib3==1.26.4
     # via requests
-watchdog==1.0.2
+watchdog==2.0.2
     # via nikola
 wcwidth==0.2.5
     # via prompt-toolkit
 webencodings==0.5.1
-    # via bleach
+    # via
+    #   bleach
+    #   html5lib
 yapsy==1.12.2
     # via nikola
 yarl==1.6.3
