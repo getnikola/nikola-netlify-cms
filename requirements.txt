@@ -44,7 +44,7 @@ doit==0.33.1
     # via nikola
 entrypoints==0.3
     # via nbconvert
-ghp-import==1.0.1
+ghp-import==1.1.0
     # via nikola
 hsluv==5.0.2
     # via nikola
@@ -54,7 +54,7 @@ idna==2.10
     # via
     #   requests
     #   yarl
-ipykernel==5.5.0
+ipykernel==5.5.3
     # via
     #   nikola
     #   notebook
@@ -63,7 +63,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.21.0
+ipython==7.22.0
     # via ipykernel
 jedi==0.18.0
     # via ipython
@@ -87,7 +87,7 @@ jupyter-core==4.7.1
     #   notebook
 jupyterlab-pygments==0.1.2
     # via nbconvert
-lxml==4.6.2
+lxml==4.6.3
     # via nikola
 mako==1.1.4
     # via nikola
@@ -120,13 +120,13 @@ nest-asyncio==1.5.1
     # via nbclient
 nikola[extras]==8.1.3
     # via -r requirements.in
-notebook==6.2.0
+notebook==6.3.0
     # via nikola
 packaging==20.9
     # via bleach
 pandocfilters==1.4.3
     # via nbconvert
-parso==0.8.1
+parso==0.8.2
     # via jedi
 pexpect==4.8.0
     # via ipython
@@ -140,7 +140,7 @@ pillow==8.1.2
     # via nikola
 prometheus-client==0.9.0
     # via notebook
-prompt-toolkit==3.0.17
+prompt-toolkit==3.0.18
     # via ipython
 ptyprocess==0.7.0
     # via
@@ -181,7 +181,7 @@ requests==2.25.1
     # via nikola
 ruamel.yaml.clib==0.2.2
     # via ruamel.yaml
-ruamel.yaml==0.16.13
+ruamel.yaml==0.17.2
     # via
     #   -r requirements.in
     #   nikola
@@ -196,7 +196,7 @@ six==1.15.0
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
-terminado==0.9.3
+terminado==0.9.4
     # via notebook
 testpath==0.4.4
     # via nbconvert
