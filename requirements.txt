@@ -87,7 +87,7 @@ jupyter-core==4.7.1
     #   notebook
 jupyterlab-pygments==0.1.2
     # via nbconvert
-lxml==4.6.2
+lxml==4.6.3
     # via nikola
 mako==1.1.4
     # via nikola
