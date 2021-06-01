@@ -224,7 +224,7 @@ typogrify==2.0.7
     # via nikola
 unidecode==1.2.0
     # via nikola
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 watchdog==2.0.2
     # via nikola
