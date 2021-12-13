@@ -60,13 +60,13 @@ ipykernel==6.4.1
     # via
     #   nikola
     #   notebook
+ipython==7.28.0
+    # via ipykernel
 ipython-genutils==0.2.0
     # via
     #   ipykernel
     #   nbformat
     #   notebook
-ipython==7.28.0
-    # via ipykernel
 jedi==0.18.0
     # via ipython
 jinja2==3.0.1
@@ -89,7 +89,7 @@ jupyter-core==4.8.1
     #   notebook
 jupyterlab-pygments==0.1.2
     # via nbconvert
-lxml==4.6.3
+lxml==4.6.5
     # via nikola
 mako==1.1.5
     # via nikola
@@ -187,8 +187,6 @@ pyzmq==22.3.0
     #   notebook
 requests==2.26.0
     # via nikola
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
 ruamel.yaml==0.17.16
     # via
     #   -r requirements.in
