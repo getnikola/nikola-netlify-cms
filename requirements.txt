@@ -8,10 +8,10 @@ aiohttp==3.8.1
     # via nikola
 aiosignal==1.2.0
     # via aiohttp
-argon2-cffi-bindings==21.2.0
-    # via argon2-cffi
 argon2-cffi==21.3.0
     # via notebook
+argon2-cffi-bindings==21.2.0
+    # via argon2-cffi
 async-timeout==4.0.1
     # via aiohttp
 attrs==21.2.0
@@ -64,18 +64,16 @@ idna==3.3
     # via
     #   requests
     #   yarl
-importlib-metadata==4.8.2
-    # via markdown
 ipykernel==6.6.0
     # via
     #   nikola
     #   notebook
+ipython==7.30.1
+    # via ipykernel
 ipython-genutils==0.2.0
     # via
     #   nbformat
     #   notebook
-ipython==7.30.1
-    # via ipykernel
 jedi==0.18.1
     # via ipython
 jinja2==3.0.3
@@ -154,7 +152,7 @@ pickleshare==0.7.5
     # via ipython
 piexif==1.1.3
     # via nikola
-pillow==8.4.0
+pillow==9.0.0
     # via nikola
 prometheus-client==0.12.0
     # via notebook
@@ -197,8 +195,6 @@ pyzmq==22.3.0
     #   notebook
 requests==2.26.0
     # via nikola
-ruamel.yaml.clib==0.2.6
-    # via ruamel.yaml
 ruamel.yaml==0.17.17
     # via
     #   -r requirements.in
@@ -255,8 +251,6 @@ yapsy==1.12.2
     # via nikola
 yarl==1.7.2
     # via aiohttp
-zipp==3.6.0
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
