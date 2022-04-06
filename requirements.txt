@@ -141,7 +141,7 @@ nest-asyncio==1.5.4
     #   notebook
 nikola[extras]==8.2.0
     # via -r requirements.in
-notebook==6.4.8
+notebook==6.4.10
     # via nikola
 packaging==21.3
     # via bleach
