@@ -106,7 +106,7 @@ lxml==4.9.1
     # via
     #   nbconvert
     #   nikola
-mako==1.2.1
+mako==1.2.2
     # via nikola
 markdown==3.4.1
     # via nikola
