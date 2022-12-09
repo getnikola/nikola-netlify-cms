@@ -30,7 +30,7 @@ bleach==5.0.1
     # via nbconvert
 blinker==1.5
     # via nikola
-certifi==2022.6.15
+certifi==2022.12.7
     # via requests
 cffi==1.15.1
     # via argon2-cffi-bindings
@@ -213,8 +213,6 @@ ruamel-yaml==0.17.21
     # via
     #   -r requirements.in
     #   nikola
-ruamel-yaml-clib==0.2.6
-    # via ruamel-yaml
 send2trash==1.8.0
     # via notebook
 six==1.16.0
