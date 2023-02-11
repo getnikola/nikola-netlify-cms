@@ -90,7 +90,7 @@ ipykernel==6.19.2
     #   nbclassic
     #   nikola
     #   notebook
-ipython==8.7.0
+ipython==8.10.0
     # via ipykernel
 ipython-genutils==0.2.0
     # via
@@ -272,8 +272,6 @@ ruamel-yaml==0.17.21
     # via
     #   -r requirements.in
     #   nikola
-ruamel-yaml-clib==0.2.7
-    # via ruamel-yaml
 send2trash==1.8.0
     # via
     #   jupyter-server
