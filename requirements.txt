@@ -182,7 +182,7 @@ nest-asyncio==1.5.8
     # via ipykernel
 nikola[extras]==8.3.0
     # via -r requirements.in
-notebook==7.0.6
+notebook==7.0.7
     # via nikola
 notebook-shim==0.2.3
     # via
