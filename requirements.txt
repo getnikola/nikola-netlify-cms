@@ -29,7 +29,7 @@ babel==2.14.0
     # via
     #   jupyterlab-server
     #   nikola
-beautifulsoup4==4.12.2
+beautifulsoup4==4.12.3
     # via nbconvert
 bleach==6.1.0
     # via nbconvert
@@ -81,7 +81,7 @@ importlib-metadata==7.0.1
     # via
     #   doit
     #   pygal
-ipykernel==6.28.0
+ipykernel==6.29.0
     # via
     #   jupyterlab
     #   nikola
@@ -102,7 +102,7 @@ json5==0.9.14
     # via jupyterlab-server
 jsonpointer==2.4
     # via jsonschema
-jsonschema[format-nongpl]==4.20.0
+jsonschema[format-nongpl]==4.21.1
     # via
     #   jupyter-events
     #   jupyterlab-server
@@ -127,7 +127,7 @@ jupyter-events==0.9.0
     # via jupyter-server
 jupyter-lsp==2.2.2
     # via jupyterlab
-jupyter-server==2.12.4
+jupyter-server==2.12.5
     # via
     #   jupyter-lsp
     #   jupyterlab
@@ -136,7 +136,7 @@ jupyter-server==2.12.4
     #   notebook-shim
 jupyter-server-terminals==0.5.1
     # via jupyter-server
-jupyterlab==4.0.10
+jupyterlab==4.0.11
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
@@ -171,18 +171,18 @@ natsort==8.4.0
     # via nikola
 nbclient==0.9.0
     # via nbconvert
-nbconvert==7.14.1
+nbconvert==7.14.2
     # via jupyter-server
 nbformat==5.9.2
     # via
     #   jupyter-server
     #   nbclient
     #   nbconvert
-nest-asyncio==1.5.8
+nest-asyncio==1.5.9
     # via ipykernel
 nikola[extras]==8.3.0
     # via -r requirements.in
-notebook==7.0.6
+notebook==7.0.7
     # via nikola
 notebook-shim==0.2.3
     # via
@@ -197,7 +197,7 @@ packaging==23.2
     #   jupyterlab
     #   jupyterlab-server
     #   nbconvert
-pandocfilters==1.5.0
+pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.3
     # via jedi
@@ -215,7 +215,7 @@ prometheus-client==0.19.0
     # via jupyter-server
 prompt-toolkit==3.0.43
     # via ipython
-psutil==5.9.7
+psutil==5.9.8
     # via ipykernel
 ptyprocess==0.7.0
     # via
@@ -268,7 +268,7 @@ rfc3986-validator==0.1.1
     # via
     #   jsonschema
     #   jupyter-events
-rpds-py==0.16.2
+rpds-py==0.17.1
     # via
     #   jsonschema
     #   referencing
