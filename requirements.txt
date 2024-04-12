@@ -71,7 +71,7 @@ hsluv==5.0.4
     # via nikola
 html5lib==1.1
     # via nikola
-idna==3.6
+idna==3.7
     # via
     #   anyio
     #   jsonschema
