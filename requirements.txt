@@ -303,7 +303,7 @@ tinycss2==1.2.1
     # via nbconvert
 toml==0.10.2
     # via nikola
-tornado==6.4
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
