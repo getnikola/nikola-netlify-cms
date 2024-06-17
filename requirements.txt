@@ -333,7 +333,7 @@ unidecode==1.3.8
     # via nikola
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.1.0
+urllib3==2.2.2
     # via requests
 watchdog==3.0.0
     # via nikola
