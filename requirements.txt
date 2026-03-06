@@ -162,7 +162,7 @@ lxml==5.1.0
     # via nikola
 mako==1.3.0
     # via nikola
-markdown==3.5.2
+markdown==3.8.1
     # via nikola
 markupsafe==2.1.3
     # via
