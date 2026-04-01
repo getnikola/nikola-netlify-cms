@@ -248,7 +248,7 @@ pycparser==3.0
     # via cffi
 pygal==3.1.0
     # via nikola
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   ipython
     #   ipython-pygments-lexers
